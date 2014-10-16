@@ -11,7 +11,7 @@ AOSP for Xperia based on MSM8660
 - repo sync
 
 2. Building the source codes
-- source build/envsetup.sh && lunch aosp_hazard-userdebug
+- source build/envsetup.sh && lunch aosp_(DEVICE)-userdebug
 - make otapackage -j10
 
 3. Troubleshooting
@@ -20,10 +20,5 @@ AOSP for Xperia based on MSM8660
 
 4. In future
 ------------
-- Adding new devices:
-	hikari (Xperia acro S)
-	hikari_row (Xperia acro HD)
-	nozomi (Xperia S)
-	aoba (Xperia ION)
-	aoba_lte (Xperia IONat)
+- Adding new devices
 - Migrate to Android 5.0 (Lolipop)
