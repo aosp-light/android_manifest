@@ -8,6 +8,8 @@
            sync-j="4" />
   <remote  name="aosp-light"
             fetch="git://github.com/aosp-light/" />
+  <remote  name="tw"
+            fetch="git://github.com/TeamWin/" />
 
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -17,7 +19,6 @@
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="aosp_bootable_recovery" remote="aosp-light" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
@@ -438,4 +439,6 @@
   <project path="device/somc/hazard" name="aosp_device_somc_hazard" remote="aosp-light" revision="aosp-kk" />
   <project path="vendor/somc" name="android_vendor_somc" remote="aosp-light" revision="aosp-kk" />
 
+  <!-- TeamWin Recovery -->
+  <project path="bootable/recovery" name="Team-Win-Recovery-Project" remote="tw" revision="twrp2.7" />
 </manifest>
