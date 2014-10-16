@@ -436,5 +436,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <project path="device/somc/hazard" name="aosp_device_somc_hazard" remote="aosp-light" revision="aosp-kk" />
+  <project path="vendor/somc" name="android_vendor_somc" remote="aosp-light" revision="aosp-kk" />
 
 </manifest>
